@@ -1,0 +1,62 @@
+body {
+    background-color: #8DD8ED;
+    font-family: 'Itim', cursive;
+
+}
+
+.balloons {
+    display: flex;
+    justify-content: center;
+    min-height: 110px;
+    width: 100%;
+
+}
+
+.ballon {
+    min-height: 100px;
+    max-height: 150px;
+    max-width: 1200px;
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 3%;
+}
+
+.croco {
+    display: flex;
+    height: 200px;
+}
+
+.letter {
+    background-color: beige;
+    border-style: solid;
+    border-color: beige;
+    border-radius: 10px;
+    height: 100%;
+    width: 40%;
+    max-width: 450px;
+    text-align: center;
+    overflow: scroll;
+    padding: 2% 2% 2% 2%;
+    font-size: 11px;
+}
+
+.footer {
+    height: 100px;
+    min-width: 100%;
+    background: url(/img/grass.svg);
+    background-repeat: repeat-x;
+    background-size: contain;
+    margin-top: 3%;
+}
+
+@media screen and (min-width: 601px) {
+    .letter {
+        font-size: 14px;
+    }
+}
